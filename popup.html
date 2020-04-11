@@ -1,0 +1,25 @@
+<div class="app" id="app">
+        <link rel="stylesheet" type="text/css" href="popup.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <main>
+      <div class="bar">
+        <img id="home" style="width: 35px; margin: 0px 10px" src="news-icon.png" alt="Home">
+        <input id ="search_bar" type = "text" placeholder="Search">
+        <button id ="search_btn" class = "search_btn">Search</button>
+        <p style="font-style: italic; font-size: 10px">Powered by <a href="https://newsapi.org/s/google-news-api">Google News API</a></p>
+        <div class = "wrapper">
+            <button id="trending" class = "suggestions">Trending</button>
+            <button id="technology" class = "suggestions"><span>Technology</span></button>
+            <button id="worldNews"class = "suggestions"><span>World News</span></button>
+            <button id ="covid"class = "suggestions"><span>Covid 19</span></button>
+        </div>
+      </div>
+      <section>
+        <article>
+            <div id="json_news"></div>
+        </article>
+      </section>
+      
+    </main>
+    <script src="popup.js"></script>
+  </div>
