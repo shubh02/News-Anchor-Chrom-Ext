@@ -11,7 +11,8 @@ Tech Stack:
 
 Upcoming:
 - Save the news in local browser to avoid calling the api redundantly
-- Add image of every news
+- Add image of every news.
+- Auto move read news to bottom.
 - A home page so that everyone can feed there own google API key to get 500 requests per day.
 
 If this was any helpful, please rate it.
