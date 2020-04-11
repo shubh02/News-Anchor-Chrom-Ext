@@ -1,6 +1,6 @@
-const latest_indian_news = "https://newsapi.org/v2/everything?q=todays+latest+india+news&apiKey=99e29152fe844d7a93dc8a15a09f4a03";
+const latest_indian_news = "https://newsapi.org/v2/everything?q=todays+latest+india+news&apiKey=ENTER_GOOGLE_API_KEY";
 
-const query_search_news = "https://newsapi.org/v2/everything?q=query&apiKey=99e29152fe844d7a93dc8a15a09f4a03";
+const query_search_news = "https://newsapi.org/v2/everything?q=query&apiKey=ENTER_GOOGLE_API_KEY";
 
 var spinnerDiv = document.getElementById("spinners");
 var news_body = document.getElementById('json_news');
