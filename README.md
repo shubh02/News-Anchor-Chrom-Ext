@@ -3,6 +3,8 @@ A chrome extension to keep you updated with latest news. It uses google News API
 
 It has search functionality to search related news as per input.
 
+![](Screenshot%202020-04-13%20at%2012.58.55%20PM.png)
+
 Tech Stack:
 
 1. Html
